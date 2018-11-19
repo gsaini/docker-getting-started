@@ -1,5 +1,13 @@
 # docker-getting-started
 
+To create/build a Docker image..
+
+`docker build -t friendlyhello .`
+
+Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p:
+
+`docker run -p 4000:80 friendlyhello`
+
 ## List Docker CLI commands
 
 docker
