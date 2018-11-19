@@ -8,6 +8,12 @@ Run the app, mapping your machine’s port 4000 to the container’s published p
 
 `docker run -p 4000:80 friendlyhello`
 
+## Pull and run the image from my remote repository
+
+`docker run -p 4000:80 gopalsaini/get-started:part2`
+
+---
+
 ## List Docker CLI commands
 
 docker
